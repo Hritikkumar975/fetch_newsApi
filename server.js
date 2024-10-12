@@ -9,13 +9,13 @@ const path = require('path');
 const app = express();
 
 // Middleware to serve static files from the 'public' directory
-app.use(express.static(_dirname));
+app.use(express.static(path.join(_dirname, 'index.html')));
 
 // API route to fetch news from NewsAPI
 app.get('/api/news', async (req, res) => {
   const apiKey = '4f375dc10068498c9e40bfadfde39795';
   const url = 'https://newsapi.org/v2/top-headlines';
-  res.sendFile(path.join(__dirname, 'index.html'));
+  
 
   try {
     const response = await axios.get(url, {
