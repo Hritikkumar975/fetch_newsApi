@@ -15,6 +15,7 @@ app.use(express.static(_dirname));
 app.get('/api/news', async (req, res) => {
   const apiKey = '4f375dc10068498c9e40bfadfde39795';
   const url = 'https://newsapi.org/v2/top-headlines';
+  res.sendFile(path.join(__dirname, 'index.html'));
 
   try {
     const response = await axios.get(url, {
