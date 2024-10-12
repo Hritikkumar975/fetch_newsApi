@@ -9,7 +9,7 @@ const path = require('path');
 const app = express();
 
 // Middleware to serve static files from the 'public' directory
-app.use(express.static(path.join(_dirname));
+app.use(express.static(_dirname));
 
 // API route to fetch news from NewsAPI
 app.get('/api/news', async (req, res) => {
