@@ -13,14 +13,14 @@ Easily fetch news for News Api
  - Exact zip file
  - Make two folder in the exacted folder and Named them first one "public" and second one "view"
  - After Make dir Arrange all file and folder like below
-├── public/
-│   ├── css/
-│   │   └── styles.css
-│   └── images/
-│       └── default.jpg
-├── views/
-│   ├── error.ejs
-└── server.js
+ -├── public/
+ -│   ├── css/
+ -│   │   └── styles.css
+ -│   └── images/
+ -│       └── default.jpg
+ -├── views/
+ -│   ├── error.ejs
+ -└── server.js
  - Ensure all folder and file arrange like above structure
  - After all run some command for install modules of node.js
 1.npm init -y
@@ -28,17 +28,17 @@ Easily fetch news for News Api
  - If your system in node cannot be download so install it otherwise you face some error during commands
  - Finally all modules install succefully then you folder structure look like
 
-fetch_NewsAPI-main/
-├── node_modules/
-├── public/
-│   ├── css/
-│   │   └── styles.css
-│   └── images/
-│       └── default.jpg
-├── views/
-│   ├── error.ejs
-├── package.json
-└── server.js
+ -fetch_NewsAPI-main/
+ -├── node_modules/
+ -├── public/
+ -│   ├── css/
+ -│   │   └── styles.css
+ -│   └── images/
+ -│       └── default.jpg
+ -├── views/
+ -│   ├── error.ejs
+ -├── package.json
+ -└── server.js
 
  - If your folder and file arrange perfectly according to instruction then run final command in terminal
  - "node server.js"
