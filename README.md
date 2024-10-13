@@ -12,15 +12,15 @@ Easily fetch news for News Api
  - Download zip file or Copy Link Clone
  - Exact zip file
  - Make two folder in the exacted folder and Named them first one "public" and second one "view"
- - After Make dir Arrange all file and folder like below
- -├── public/
- -│   ├── css/
- -│   │   └── styles.css
- -│   └── images/
- -│       └── default.jpg
- -├── views/
- -│   ├── error.ejs
- -└── server.js
+ - After Make dir Arrange all file and folder like 
+ ├── public/
+ │   ├── css/
+ │   │   └── styles.css
+ │   └── images/
+ │       └── default.jpg
+ ├── views/
+ │   ├── error.ejs
+ └── server.js
  - Ensure all folder and file arrange like above structure
  - After all run some command for install modules of node.js
 1.npm init -y
