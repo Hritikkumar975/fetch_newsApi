@@ -8,15 +8,41 @@ Easily fetch news for News Api
 - Database: Not yet
 
 ##Get started
+
  - Download zip file or Copy Link Clone
  - Exact zip file
- - Before run server.js file you need to install some node.js and ensure your system in node.js installed or not if not install it
- - npm init -y
- - npm install express axios ejs dotenv
- - And finally run "node server.js"
- - Above work if your system in npm installed otherwise you face error
- - After run command Open browser and type "localhost:port_number" port_number: show below on terminal where you push command "node server.js"
+ - Make two folder in the exacted folder and Named them first one "public" and second one "view"
+ - After Make dir Arrange all file and folder like below
+├── public/
+│   ├── css/
+│   │   └── styles.css
+│   └── images/
+│       └── default.jpg
+├── views/
+│   ├── error.ejs
+└── server.js
+ - Ensure all folder and file arrange like above structure
+ - After all run some command for install modules of node.js
+1.npm init -y
+2.npm install express axios ejs dotenv
+ - If your system in node cannot be download so install it otherwise you face some error during commands
+ - Finally all modules install succefully then you folder structure look like
 
+fetch_NewsAPI-main/
+├── node_modules/
+├── public/
+│   ├── css/
+│   │   └── styles.css
+│   └── images/
+│       └── default.jpg
+├── views/
+│   ├── error.ejs
+├── package.json
+└── server.js
+
+ - If your folder and file arrange perfectly according to instruction then run final command in terminal
+ - "node server.js"
+ - Open browser and type localhost:port_name "port_name - mention on terminal when you run node server.js"
 ### Prerequisites
 
 You need to have the following installed on your machine:
